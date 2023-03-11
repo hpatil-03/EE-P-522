@@ -95,7 +95,7 @@ while True:
 
 
     # check for specific text in the message
-    if "inc" in message.lower():
+    if "inc" ==message:
         inc()
     if "dim"==message:
         dim()
